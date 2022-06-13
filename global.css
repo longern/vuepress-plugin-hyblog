@@ -1,0 +1,20 @@
+main button {
+  background-color: var(--c-brand);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: opacity 0.2s ease-in-out;
+  box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%),
+    0 1px 10px 0 rgb(0 0 0 / 12%);
+}
+
+main button:active {
+  opacity: 0.8;
+}
+
+main input {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+}
