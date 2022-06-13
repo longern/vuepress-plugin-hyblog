@@ -14,8 +14,8 @@ const paginator = (<Record<string, any>>usePageData().value).paginator;
             <h2 v-text="post.title"></h2>
           </a>
         </div>
-        <div v-text="post.date" class="date"></div>
         <div v-html="post.excerpt" class="excerpt"></div>
+        <div v-text="post.date" class="date"></div>
         <a :href="post.url">Read more...</a>
       </div>
       <div>
@@ -57,7 +57,7 @@ const paginator = (<Record<string, any>>usePageData().value).paginator;
 }
 
 .well .excerpt {
-  padding: 16px 0;
+  margin-bottom: 24px;
   white-space: pre-wrap;
 }
 
